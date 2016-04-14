@@ -108,7 +108,7 @@ $(function(){
 					</div>
 
 					<a href="{{ route('user.orders') }}" class="text-bigger">
-						<i class="ion-ios-arrow-thin-left"></i> {{ trans('sanatorium/shoporders::orders/common.actions.back') }}
+						<i class="ion-ios-arrow-thin-left"></i> {{ trans('sanatorium/orders::orders/common.actions.back') }}
 					</a>
 
 				@endif

@@ -300,7 +300,7 @@ return [
                 });
 
                 // @todo get reviews not dependendant on orders
-                $orders = app('sanatorium.shoporders.order');
+                $orders = app('sanatorium.orders.order');
                 $statuses = Status::where('status_entity', $orders->getModel())->get();
 
                 $f->field('finished_status', function ($f) use ($statuses) {

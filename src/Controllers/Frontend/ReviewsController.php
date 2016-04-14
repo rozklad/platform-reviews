@@ -4,7 +4,7 @@ use Cart;
 use Platform\Foundation\Controllers\Controller;
 use Sentinel;
 use View;
-use Sanatorium\Shoppricing\Models\Currency;
+use Sanatorium\Pricing\Models\Currency;
 use Product;
 
 class ReviewsController extends Controller {
